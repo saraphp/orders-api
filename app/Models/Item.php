@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+
+use Illuminate\Database\Eloquent\Model;
+
+class Item extends Model
+{
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'name', 'category', 'subcategory','value','qnt','collection_id','order_id','discount_value'
+    ];
+
+
+}
