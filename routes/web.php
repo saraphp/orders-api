@@ -15,5 +15,5 @@ Route::get('/', function () {
 
     return view('welcome');
 });
-Route::get('/api/orders', 'OrderController@getOrder')->name('orders');
-Route::post('/api/orders', 'OrderController@storeOrder')->name('orders.store');
+Route::get('/', 'OrderController@getOrder')->name('orders');
+Route::post('/', 'OrderController@storeOrder')->name('orders.store');

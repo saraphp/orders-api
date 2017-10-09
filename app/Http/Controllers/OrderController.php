@@ -38,7 +38,7 @@ class OrderController extends Controller
 
        $request= '{
                 "order": {
-                  "order_id": 51276,
+                  "order_id": 51275,
                   "email": "test@email.com",
                   "total_amount_net": "1890.00",
                   "shipping_costs": "29.00",
